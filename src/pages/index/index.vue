@@ -12,26 +12,26 @@
 </template>
 
 <style scoped>
-.index_index_c{
-  margin: 3rem 0 0;
-  padding-bottom: 3.5rem;
-  background: #eee;
-}
-.refresh{
-  position: fixed;
-  bottom: 10%;
-  right: 5%;
-  background: #fff;
-  border-radius: 50%;
-  padding:.2rem;
-}
-.refresh img{
-  width: 2.5rem;
-}
-.refreshOn{
-  transform: rotate(720deg);
-  transition: all 1s;
-}
+  .index_index_c{
+    margin: 2.5rem 0 0;
+    padding-bottom: 3.5rem;
+    background: #eee;
+  }
+  .refresh{
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+    background: #fff;
+    border-radius: 50%;
+    padding:.2rem;
+  }
+  .refresh img{
+    width: 2.5rem;
+  }
+  .refreshOn{
+    transform: rotate(720deg);
+    transition: all 1s;
+  }
 </style>
 <script>
 import header from '@/commons/header'

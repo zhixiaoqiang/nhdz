@@ -26,6 +26,7 @@
     font-size: 1.2rem;
     background: #fff;
     z-index: 3;
+    text-align: left;
   }
   #header .header_c::-webkit-scrollbar{
     width: 0;

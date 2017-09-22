@@ -253,7 +253,7 @@
 export default {
   props: ['joke', 'comments'],
   created () {
-    console.log(this.joke)
+    // console.log(this.joke)
   },
   data () {
     return {

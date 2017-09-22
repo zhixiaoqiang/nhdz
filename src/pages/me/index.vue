@@ -11,7 +11,6 @@
             <span>{{ user.name }}</span>
             <p class="">个人主页</p>
           </div>
-          
         </div>
         <div class="login_right">
           <img src="../../assets/svg/go.svg" alt="">
@@ -125,6 +124,7 @@
     align-items: center;
     justify-content: space-between;
     padding:.5rem;
+    padding-right: 0;
   }
 </style>
 <script>

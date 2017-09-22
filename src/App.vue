@@ -135,4 +135,7 @@ body{
   user-select:none;
   -webkit-appearance: none;
 }
+ul li{
+  list-style: none;
+}
 </style>

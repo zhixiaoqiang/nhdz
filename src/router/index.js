@@ -24,7 +24,10 @@ import local from '~~/index/local'
 
 // 发现
 import FindIndex from '~~/find'
-
+// 话题
+import huati from '~~/find/huati'
+// 关注
+import guanzhu from '~~/find/guanzhu'
 // 段友秀
 import FriendsShow from '~~/friendsShow'
 
@@ -93,8 +96,19 @@ export default new Router({
     },
     {
       path: '/find',
-      name: 'Find',
-      component: FindIndex
+      component: FindIndex,
+      children: [
+        {
+          path: '',
+          component: huati,
+          name: 'huati'
+        },
+        {
+          path: 'gz',
+          component: guanzhu,
+          name: 'gz'
+        }
+      ]
     },
     {
       path: '/friendshow',

@@ -1,15 +1,16 @@
 <template>
   <div id="essence">
-    <div>
-      <!-- {{ jokes.tip }} -->
-    </div>
-    <!-- <joke v-for="item in jokes.data" :key="item.display_time" :joke="item.group"></joke> -->
+      <h3>正在努力开发中···,预计10.15号之前完成</h3>
   </div>
 </template>
 
 <style scoped>
 #essence{
   background: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
 }
 </style>
 
@@ -29,7 +30,8 @@ export default {
   },
   data () {
     return {
-      jokes: ''
+      jokes: '',
+      showTip: false
     }
   },
   components: {
